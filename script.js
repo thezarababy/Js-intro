@@ -189,8 +189,15 @@
 // // evenOddNumber()
 // }
 
-let lenghtOfName = (name) =>{
-  let myName = name;
-  console.log(myName.length);
-}
-lenghtOfName("joy");
+// let lenghtOfName = (name) =>{
+//   let myName = name;
+//   console.log(myName.length);
+// }
+// lenghtOfName("joy");
+
+//Assignment- write an article on hoisting and scoping with examples
+//global scope ,function scope, block scope
+//variable hoisting
+//function hoisting
+// write the article on medium
+//topic-Javascript hoisting and scoping for beginners
