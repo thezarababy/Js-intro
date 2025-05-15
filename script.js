@@ -201,3 +201,5 @@
 //function hoisting
 // write the article on medium
 //topic-Javascript hoisting and scoping for beginners
+
+//do your assignment
