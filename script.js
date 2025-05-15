@@ -167,12 +167,30 @@
 
 //  that takes a number and checks if the number is even or odd
 
-function evenOddNumber(){
-    const num = prompt("enter a number");
-    if (num % 2==0){
-        console.log(`${num} is an even number`);
-    }else{
-        console.log(`${num} is an odd number`)
-    }
-};
-evenOddNumber()
+// function evenOddNumber(){
+//     const num = prompt("enter a number");
+//     if (num % 2==0){
+//         console.log(`${num} is an even number`);
+//     }else{
+//         console.log(`${num} is an odd number`)
+//     }
+// };
+// evenOddNumber()
+
+//arrow function
+// const evenOddNumber=()=>{
+//     const num = prompt("enter a number");
+//    if (num % 2==0){
+//        console.log(`${num} is an even number`);
+//      }else{
+//         console.log(`${num} is an odd number`)
+//     }
+//  };
+// // evenOddNumber()
+// }
+
+let lenghtOfName = (name) =>{
+  let myName = name;
+  console.log(myName.length);
+}
+lenghtOfName("joy");
