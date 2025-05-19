@@ -115,7 +115,7 @@
 //    greet("ife", "male");
 
 // //function expression
-//    function sumOf2Numbers (num1,num2){
+//  const sumOf2Numbers = function  (num1,num2){
    
 //     let result = num1 + num2;
 //     console.log(result)
@@ -202,4 +202,32 @@
 // write the article on medium
 //topic-Javascript hoisting and scoping for beginners
 
-//do your assignment
+//do your assignment 
+
+//Write a function that divides two numbers
+//   const division = (a,b) => {
+//   let result = a / b;
+//   console.log(result);
+//  }
+//  division(4,2)
+//  division(10,15)
+// write a function to check if a number is even or odd
+
+
+// const evenOdd =(num) => {
+// //  const number= prompt("enter any number");
+//   if(num %2 ==0 ){
+//     console.log("this is an even number");
+//   }else{
+//     console.log("this is an odd number")
+//   }
+// }                                                     
+// evenOdd(9);
+
+//write a function to return the largest of 3 numbers
+
+ const maxNumber= (a,b,c)=>{
+ console.log(Math.max(a,b,c));
+}
+ maxNumber(6,8,12) 
+ maxNumber(45,56,1)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
