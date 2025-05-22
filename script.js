@@ -226,8 +226,31 @@
 
 //write a function to return the largest of 3 numbers
 
- const maxNumber= (a,b,c)=>{
- console.log(Math.max(a,b,c));
-}
- maxNumber(6,8,12) 
- maxNumber(45,56,1)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+//  const maxNumber= (a,b,c)=>{
+//  console.log(Math.max(a,b,c));
+// }
+//  maxNumber(6,8,12) 
+//  maxNumber(45,56,1)  
+
+//write a function to reverse a string
+// const reversedName=()=>{
+//  userName= prompt("enter your name")
+//  console.log(userName.split("").reverse().join(""))
+// }
+// reversedName()
+//write a function that returns the longest word in a sentence
+//  for(i=1; i<=50; i++) {
+//   console.log(i)
+//  }
+// console.log(document.getElementsByClassName("black"))
+// console.log(document.getElementById("btn"));
+// console.log(document.querySelector("h2").innerText)
+//  let student = {
+//         name:"Joy",
+//         nationality: "Nigeria",
+//         gender: "female"
+//  }
+//  console.log(student.name);
+// //  console.log(object.keys(student))
+console.log(document.querySelectorAll("li")[3].textContent = "fish");
+console.log(document.querySelectorAll("li")[2].innerHTML);

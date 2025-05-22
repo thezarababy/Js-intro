@@ -1,0 +1,8 @@
+.black{
+    height:100px;
+    width: 100px;
+    background-color: black;
+}
+#header{
+    text-transform: capitalize;
+}
