@@ -252,5 +252,10 @@
 //  }
 //  console.log(student.name);
 // //  console.log(object.keys(student))
-console.log(document.querySelectorAll("li")[3].textContent = "fish");
-console.log(document.querySelectorAll("li")[2].innerHTML);
+// console.log(document.querySelectorAll("li")[3].textContent = "fish");
+// console.log(document.querySelectorAll("li")[2].innerHTML);
+// let black = document.getElementsByClassName("black");
+// black.style.backgroundcolor = "hotpink"
+function showAlert(){
+  alert('i have clicked on this button');
+}
