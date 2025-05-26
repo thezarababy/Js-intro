@@ -256,6 +256,26 @@
 // console.log(document.querySelectorAll("li")[2].innerHTML);
 // let black = document.getElementsByClassName("black");
 // black.style.backgroundcolor = "hotpink"
-function showAlert(){
-  alert('i have clicked on this button');
-}
+// function showAlert(){
+//   alert('i have clicked on this button');
+// }
+
+let change = document.getElementById("change")
+change.addEventListener(click,opener);
+  
+;
+
+// let close = () => {
+
+ function opener(){
+ let change = document.getElementById("change");
+  change.innerText ="close";
+   if(change===OPEN){
+     change.innerText= "close";
+   }else
+   change.innerText ="OPEN";
+ }
+ 
+
+
+
